@@ -12,7 +12,7 @@ module Carmen
     attr_reader :alpha_2_code
     attr_reader :alpha_3_code
 
-    def initialize(data={}, parent)
+    def initialize(data={}, parent=nil)
       super
       @alpha_2_code = data['alpha_2_code']
       @alpha_3_code = data['alpha_3_code']
